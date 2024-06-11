@@ -1,3 +1,96 @@
 body{
   background-color: #FFD0D0;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #CA8787;
+  color: #fff;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-center {
+  flex: 2;
+  justify-content: center;
+}
+
+.navbar-right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.welcome-label {
+  margin-right: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.notification-icon {
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.notification-icon .fa-bell {
+  font-size: 20px;
+}
+
+.notification-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 100px;
+}
+
+.profile-dropdown p {
+  margin: 5px 0;
+  cursor: pointer;
+}
